@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file alias="Gandalf.jpg">Resources/Installation Wizard.jpg</file>
+        <file alias="Timesheet.ico">Logo/ICO/favicon.ico</file>
+    </qresource>
+</RCC>

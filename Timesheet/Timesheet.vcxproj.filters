@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="MainWindow">
+      <UniqueIdentifier>{fb3fddc9-55ba-4cd3-b092-37fe69da38a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{69e3bbfb-2878-4614-8baa-487519125020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DayItem">
+      <UniqueIdentifier>{6815101b-626e-4463-ae69-5d9c9ac0a206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Job">
+      <UniqueIdentifier>{7abb724f-0550-49fe-a6d7-f648ff69100e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Job\JobStatus">
+      <UniqueIdentifier>{e9f2eef7-a1d5-4e28-bdd9-72cb657dfbfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Statistics">
+      <UniqueIdentifier>{03fcd41a-3154-41e1-9e6e-bd403b57feca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Statistics\Project">
+      <UniqueIdentifier>{a823f4fa-4552-466e-bc65-f9fb1a9b4d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Timespan">
+      <UniqueIdentifier>{d77b7222-2f7e-4bcb-a428-0533fd59972c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\EditJob">
+      <UniqueIdentifier>{678e61f9-9dcd-4c49-ae63-204b6a23c24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\Login">
+      <UniqueIdentifier>{70022730-d9cc-47a1-9a07-3bb981d1b344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\SalaryPaid">
+      <UniqueIdentifier>{57045339-bacc-4339-adc4-918a08ccd5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\Settings">
+      <UniqueIdentifier>{bbaf726f-ad06-4254-9438-67a42dcd9389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainWindow\TimesheetWizard">
+      <UniqueIdentifier>{fb974a67-2e7e-4fb4-9cd3-c2eb4c3d5b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySQLConn">
+      <UniqueIdentifier>{10d1238b-29e3-4d99-8161-2e8774f54940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeView">
+      <UniqueIdentifier>{acbf4d0b-ccec-4f2e-94bc-eb2c7786f0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeView\CustomDelegate">
+      <UniqueIdentifier>{42a34c93-3954-46b0-bf44-3f36f49f0272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeView\FilteProxyModel">
+      <UniqueIdentifier>{8fac9683-fe7e-44cd-8173-8defd0422840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeView\TreeItem">
+      <UniqueIdentifier>{163299c6-43eb-4941-86ac-f57f0711f82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TreeView\TreeModel">
+      <UniqueIdentifier>{ae560319-611a-47c1-a7c6-8d49657edfb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLReader">
+      <UniqueIdentifier>{7e96332d-62d4-4149-a7bf-2e6f0b5ef438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{ece167aa-5729-4a3a-a2e5-40e23a5360a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DayItem.cpp">
+      <Filter>Data\DayItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Data\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="JobStatus.cpp">
+      <Filter>Data\Job\JobStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics.cpp">
+      <Filter>Data\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Data\Statistics\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSpan.cpp">
+      <Filter>Data\Timespan</Filter>
+    </ClCompile>
+    <ClCompile Include="oldreader.cpp">
+      <Filter>XMLReader</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlstreamreader.cpp">
+      <Filter>XMLReader</Filter>
+    </ClCompile>
+    <ClCompile Include="EditJob.cpp">
+      <Filter>MainWindow\EditJob</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>MainWindow\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="SalaryPaid.cpp">
+      <Filter>MainWindow\SalaryPaid</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsDialog.cpp">
+      <Filter>MainWindow\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>MainWindow\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="TimesheetWizard.cpp">
+      <Filter>MainWindow\TimesheetWizard</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLConn.cpp">
+      <Filter>MySQLConn</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomDelegate.cpp">
+      <Filter>TreeView\CustomDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSortFilterProxyModel.cpp">
+      <Filter>TreeView\FilteProxyModel</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeItem.cpp">
+      <Filter>TreeView\TreeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeModel.cpp">
+      <Filter>TreeView\TreeModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Data.h">
+      <Filter>Data</Filter>
+    </QtMoc>
+    <QtMoc Include="EditJob.h">
+      <Filter>MainWindow\EditJob</Filter>
+    </QtMoc>
+    <QtMoc Include="Login.h">
+      <Filter>MainWindow\Login</Filter>
+    </QtMoc>
+    <QtMoc Include="SalaryPaid.h">
+      <Filter>MainWindow\SalaryPaid</Filter>
+    </QtMoc>
+    <QtMoc Include="SettingsDialog.h">
+      <Filter>MainWindow\Settings</Filter>
+    </QtMoc>
+    <QtMoc Include="TimesheetWizard.h">
+      <Filter>MainWindow\TimesheetWizard</Filter>
+    </QtMoc>
+    <QtMoc Include="MainWindow.h">
+      <Filter>MainWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="MySQLConn.h">
+      <Filter>MySQLConn</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomDelegate.h">
+      <Filter>TreeView\CustomDelegate</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomSortFilterProxyModel.h">
+      <Filter>TreeView\FilteProxyModel</Filter>
+    </QtMoc>
+    <QtMoc Include="TreeModel.h">
+      <Filter>TreeView\TreeModel</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DayItem.h">
+      <Filter>Data\DayItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>Data\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="JobStatus.h">
+      <Filter>Data\Job\JobStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h">
+      <Filter>Data\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Data\Statistics\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSpan.h">
+      <Filter>Data\Timespan</Filter>
+    </ClInclude>
+    <ClInclude Include="oldreader.h">
+      <Filter>XMLReader</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlstreamreader.h">
+      <Filter>XMLReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>MainWindow\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="treeitem.h">
+      <Filter>TreeView\TreeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_EditJob.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Login.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SalaryPaid.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SettingsDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TimesheetWizard.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="EditJob.ui">
+      <Filter>MainWindow\EditJob</Filter>
+    </QtUic>
+    <QtUic Include="Login.ui">
+      <Filter>MainWindow\Login</Filter>
+    </QtUic>
+    <QtUic Include="SalaryPaid.ui">
+      <Filter>MainWindow\SalaryPaid</Filter>
+    </QtUic>
+    <QtUic Include="SettingsDialog.ui">
+      <Filter>MainWindow\Settings</Filter>
+    </QtUic>
+    <QtUic Include="TimesheetWizard.ui">
+      <Filter>MainWindow\TimesheetWizard</Filter>
+    </QtUic>
+    <QtUic Include="MainWindow.ui">
+      <Filter>MainWindow</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ToAdd\MainWindow\Resources\Installation Wizard.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ToAdd\MainWindow\Logo\ICO\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Installation Wizard.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Logo\ICO\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Timesheet.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainWindow.qrc">
+      <Filter>MainWindow</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TranslationFiles\timesheet_en.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="TranslationFiles\timesheet_pl.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="TranslationFiles\timesheet_pl.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="TranslationFiles\timesheet_en.qm">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Timesheet.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
