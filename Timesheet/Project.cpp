@@ -9,12 +9,13 @@ Project::Project(Project* parent) : TreeItem(parent)
 
 Project::~Project()
 {
-	Jobs.clear(); // dont remove item, if you remove any of Jobs, you will also remove items from TreeView
+	qDebug() << "Usuwam Project!";
+	//Jobs.clear(); // dont remove item, if you remove any of Jobs, you will also remove items from TreeView
 	//but it is good idea to remove all project descendants;
-	while(childItems.length())
-	{
-		delete childItems.takeLast();
-	}
+	//while(childItems.length())
+	//{
+	//	delete childItems.takeLast();
+	//}
 }
 
 QStringList Project::ProjectsList(bool highest)

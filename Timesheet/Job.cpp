@@ -22,7 +22,7 @@ Job::Job(QDateTime _From, QDateTime _To, QDateTime _ModDate, QString _Company, Q
 
 Job::~Job()
 {
-	
+	qDebug() << "Usuwam Job!";
 }
 
 void Job::UpdateValues(QDateTime _From, QDateTime _To, QDateTime _ModDate, QString _Company, QString _Project, QString _Comment, JobStatus _Status, QString _Owner, qint64 _ID)

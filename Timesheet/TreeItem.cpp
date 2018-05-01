@@ -7,6 +7,7 @@ TreeItem::TreeItem(TreeItem *parent)
 }
 TreeItem::~TreeItem()
 {
+	qDebug() << "Usuwam TreeItem!";
 	if (parentItem)
 	{
 		parentItem->childItems.removeAll(this);
@@ -44,7 +45,7 @@ int TreeItem::childNumber() const //row()
 
 int TreeItem::columnCount() const
 {
-	return itemData.size();
+	return itemData.count();
 }
 
 QVariant TreeItem::data(int column) const

@@ -8,7 +8,7 @@ DayItem::DayItem()
 
 DayItem::~DayItem()
 {
-	//qDebug() << "Usuwam DayItem!";
+	qDebug() << "Usuwam DayItem!";
 	
 }
 

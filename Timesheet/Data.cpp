@@ -104,6 +104,10 @@ DayItem* Data::addJob(Job* job)
 		JobList.append(job);
 		stats.addPosition(job);
 
+		
+		
+		
+		
 		DayItem* D = assignDay(job);
 		if (Model && Model->rootItem->childItems.indexOf(D) == -1)
 		{
