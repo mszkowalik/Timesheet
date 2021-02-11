@@ -1,6 +1,6 @@
 #include <QtWidgets>
 
-#include "treeitem.h"
+#include "TreeItem.h"
 #include "TreeModel.h"
 
 

@@ -1,5 +1,5 @@
 #include "MySQLConn.h"
-#include <qDebug>
+#include <QDebug>
 #include <QUrlQuery>
 #include <QJsonDocument>
 #include <QTextCodec>

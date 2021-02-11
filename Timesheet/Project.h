@@ -2,14 +2,14 @@
 #include <qwidget.h>
 #include "TimeSpan.h"
 #include "Job.h"
-#include "treeitem.h"
+#include "TreeItem.h"
 #include <QStringList>
 class Project : public TreeItem
 {
 public:
 	Project(Project* parent=0);
 	~Project();
-	QVariant Project::data(int column) const;
+    QVariant data(int column) const;
 	int columnCount() const  override;
 
 	void assignProject(Job* job, QString ProjectName="");

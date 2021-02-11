@@ -5,8 +5,8 @@ class JobStatus
 public:
 	JobStatus(int i = 0) {status = i;};
 	~JobStatus();
-	int toInt() { return status; };
-	QString getStatusString() { return Statuses.at(status); };
+    int toInt() const { return status; };
+    QString getStatusString() const { return Statuses.at(status); };
 	void setStatus(int i) { if (i < Statuses.length()) status = i; };
 	QStringList Statuses = { "Unpaid","Paid","Pending" };
 	enum StatusesEnum

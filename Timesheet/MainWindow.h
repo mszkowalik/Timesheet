@@ -3,7 +3,7 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_MainWindow.h"
 #include <QSettings>
-#include <qDebug>
+#include <QDebug>
 #include <qstandarditemmodel.h>
 #include "TreeModel.h"
 #include "oldreader.h"
@@ -11,7 +11,7 @@
 #include "SettingsDialog.h"
 #include <QFileDialog>
 #include "Settings.h"
-#include "Xmlstreamreader.h"
+#include "xmlstreamreader.h"
 #include <Statistics.h>
 #include <Data.h>
 #include "CustomSortFilterProxyModel.h"

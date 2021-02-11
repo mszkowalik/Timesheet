@@ -1,6 +1,6 @@
 #pragma once
 #include <QWidget>
-#include <qDebug>
+#include <QDebug>
 #include <iomanip>
 class TimeSpan
 {
