@@ -305,7 +305,7 @@ int Data::companyIndex(QString Company)
 QList<Job*> Data::getJobsToSave(int updatePeriod)
 {
 	QList<Job*> ret;
-	for each (Job* job in JobList)
+    for (Job* job : JobList)
 	{
 		//if (job->getStatus().toInt() == 0 || job->getFrom() > QDateTime::currentDateTime().addDays(-updatePeriod))
 		{

@@ -1,9 +1,9 @@
 #pragma once
 
 #include <QStandardItem>
-#include "treeitem.h"
+#include "TreeItem.h"
 #include <qdatetime.h>
-#include <qDebug>
+#include <QDebug>
 #include "Constants.h"
 #include "TimeSpan.h"
 #include "JobStatus.h"
@@ -30,7 +30,7 @@ public:
 	QString getCompany()	const { return Company; };
 	QString getProject()	const { return Project; };
 	QString getComment()	const { return Comment; };
-	JobStatus getStatus()		const { return Status; };
+    JobStatus const & getStatus()	const { return Status; };
 	QString getOwner()		const { return Owner; };
 	qint64 getID()			const { return ID; };
 	TimeSpan getDuration()	const { return TimeSpan(getFrom().secsTo(getTo())); };

@@ -1,6 +1,6 @@
 #pragma once
 #include "qstring.h"
-#include < QApplication.h>
+#include <QApplication>
 
 const QString MYSQLDATETIME("yyyy-MM-dd HH:mm:ss"); //not used anymore - from now on using Qt::ISODate
 const QString MYSQLDATE("yyyy-MM-dd");

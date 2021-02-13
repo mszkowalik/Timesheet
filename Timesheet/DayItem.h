@@ -1,5 +1,5 @@
 #pragma once
-#include "treeitem.h"
+#include "TreeItem.h"
 #include "Job.h"
 #include <QDate>
 #include "TimeSpan.h"

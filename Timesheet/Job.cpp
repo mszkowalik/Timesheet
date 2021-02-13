@@ -99,7 +99,7 @@ QVariant Job::data(int column) const
 		return QVariant(getProject());
 		break;
 	case 4:
-		return QVariant(qRegisterMetaType<JobStatus>(), &getStatus());
+        return QVariant(qRegisterMetaType<JobStatus>(), /*& CHECKME TOM */ & getStatus());
 		break;
 	case -1:
 		QVariant var;
